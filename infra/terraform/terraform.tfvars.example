@@ -1,0 +1,11 @@
+aws_region   = "us-east-1"
+instance_type = "t3.micro"
+key_name      = "CHANGE_ME_KEY_PAIR"
+ssh_cidr      = "0.0.0.0/0"
+app_port      = 4000
+app_cidr      = "0.0.0.0/0"
+app_dir       = "/opt/oldtrailbikes"
+tags = {
+  Environment = "staging"
+  Project     = "oldtrailbikes"
+}
